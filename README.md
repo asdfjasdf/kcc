@@ -763,7 +763,7 @@ This is not very revealing, so lets see them in action. The operator to query th
 
  v:0 1 .5 2
  @v          /0.5 promotes vector to float
-`f
+`F
 
  v 1         /2nd item, f is short for 1.0
 1f
@@ -777,7 +777,7 @@ Like in C, there is no dedicated type for strings in 𝒌. Strings are just **ch
 `c
 
  s:"kei";@s  /s is char vector
-`c
+`C
  
  s 0         /1st element of s
 "k"
@@ -797,7 +797,7 @@ Names save a lot of memory and come handy in many situations, but not as flexibl
 
  b:`kei`kei`kei      /three references to "kei"
  @b                  /vector of string pointers
-`n
+`N
 
 `1234567890         /longer names are truncated
 12345678
